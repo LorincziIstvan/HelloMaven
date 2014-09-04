@@ -11,7 +11,7 @@ public class CalcultaorTest {
 	
 	@Test
 	public void testAdd() {
-		assertEquals(Calculator.add(1,2),1);
+		assertEquals(Calculator.add(1,2),3);
 	}
 	@Test
 	public void testAddNegativ() {
