@@ -1,8 +1,10 @@
-package edu.msg.helloMaven;
+package edu.msg.helloTest;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import edu.msg.helloMaven.Calculator;
 
 public class CalculatorTest2 {
 

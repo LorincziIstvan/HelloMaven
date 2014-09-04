@@ -1,4 +1,4 @@
-package edu.msg.helloMaven;
+package edu.msg.helloTest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

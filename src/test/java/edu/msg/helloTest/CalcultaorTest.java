@@ -1,8 +1,10 @@
-package edu.msg.helloMaven;
+package edu.msg.helloTest;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import edu.msg.helloMaven.Calculator;
 
 public class CalcultaorTest {
 	
