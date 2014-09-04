@@ -11,8 +11,9 @@ public class CalcultaorTest {
 	
 	@Test
 	public void testAdd() {
-		assertEquals(Calculator.add(1,2),3);
+		assertEquals(Calculator.add(1,2),1);
 	}
+	
 	public void testAddTwo() {
 		assertEquals(Calculator.add(-1,2),1);
 	}
