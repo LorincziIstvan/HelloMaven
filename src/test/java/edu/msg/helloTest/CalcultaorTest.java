@@ -13,8 +13,8 @@ public class CalcultaorTest {
 	public void testAdd() {
 		assertEquals(Calculator.add(1,2),1);
 	}
-	
-	public void testAddTwo() {
+	@Test
+	public void testAddNegativ() {
 		assertEquals(Calculator.add(-1,2),1);
 	}
 

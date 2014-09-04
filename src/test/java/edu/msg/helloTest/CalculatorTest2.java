@@ -15,6 +15,11 @@ public class CalculatorTest2 {
 	public void testAdd() {
 		assertEquals(Calculator.add(1,2),3);
 	}
+	
+	@Test
+	public void testAddNegativ() {
+		assertEquals(Calculator.add(1,-2),2);
+	}
 
 	@Test
 	public void testSub() {
