@@ -11,8 +11,10 @@ public class CalcultaorTest {
 	
 	@Test
 	public void testAdd() {
-		System.out.println("test are running");
 		assertEquals(Calculator.add(1,2),3);
+	}
+	public void testAddTwo() {
+		assertEquals(Calculator.add(-1,2),1);
 	}
 
 	@Test
