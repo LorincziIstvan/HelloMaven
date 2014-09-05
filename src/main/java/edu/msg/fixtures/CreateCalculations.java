@@ -8,6 +8,12 @@ public class CreateCalculations {
 	private int operand2;
 	private String operation;
 
+	public CreateCalculations() {
+		this.operand1 = 0;
+		this.operand1 = 1;
+		this.operation = "Add";
+	}
+
 	public void setOperand1(int operand1) {
 		this.operand1 = operand1;
 	}
@@ -22,21 +28,20 @@ public class CreateCalculations {
 
 	public double result() {
 		switch (operation) {
-		case "Add": {
+		case "Add":
 			return Calculator.add(operand1, operand2);
-		}
-		case "Sub": {
+
+		case "Sub":
 			return Calculator.sub(operand1, operand2);
-		}
-		case "Mul": {
+
+		case "Mul":
 			return Calculator.mul(operand1, operand2);
-		}
-		case "Div": {
+
+		case "Div":
 			return Calculator.div(operand1, operand2);
-		}
-		case "Mod": {
+
+		case "Mod":
 			return Calculator.mod(operand1, operand2);
-		}
 
 		default:
 			return 0;
