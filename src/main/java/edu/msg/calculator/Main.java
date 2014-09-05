@@ -1,4 +1,4 @@
-package edu.msg.hellomaven;
+package edu.msg.calculator;
 
 
 public class Main {
