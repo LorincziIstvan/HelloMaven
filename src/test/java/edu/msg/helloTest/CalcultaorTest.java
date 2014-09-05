@@ -32,6 +32,11 @@ public class CalcultaorTest {
 	public void testDiv() {
 		assertEquals(Calculator.div(1,2),0.5,0.00001);
 	}
+	
+	@Test
+	public void testDiv2() {
+		assertEquals(Calculator.div(1,5),0.2,0.00001);
+	}
 
 	@Test
 	public void testMod() {
