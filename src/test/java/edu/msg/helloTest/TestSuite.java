@@ -1,4 +1,4 @@
-package edu.msg.helloTest;
+package edu.msg.hellotest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

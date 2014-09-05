@@ -1,9 +1,9 @@
-package edu.msg.helloMaven;
+package edu.msg.hellomaven;
 
 public class HelloMaven {
 
-	public static void main(String args[]) {
-		System.out.println("Hello Maven and the World!");
+	public static void main(String[] args) {
+
 	}
 
 }
