@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import edu.msg.calculator.Calculator;
 import edu.msg.fixtures.CreateCalculations;
 
 public class CalculatorTest2 {
@@ -64,7 +63,17 @@ public class CalculatorTest2 {
 		calc.setOperand2(2);
 		calc.setOperation("Mod");
 		assertEquals(calc.result(), 1,0.00001);
-		assertEquals(Calculator.mod(1, 2), 1);
+	
+	}
+	
+	@Test
+	public void testDefault() {
+		calc=new CreateCalculations();
+		calc.setOperand1(1);
+		calc.setOperand2(2);
+		calc.setOperation("Def");
+		assertEquals(calc.result(), 0,0.00001);
+
 	}
 
 }
