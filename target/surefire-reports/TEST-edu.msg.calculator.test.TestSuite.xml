@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.msg.calculator.test.TestSuite" time="0.002" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="edu.msg.calculator.test.TestSuite" time="0.024" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_20\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\lorinczi\workspaceLuna\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1735480376162640.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\lorinczi\workspaceLuna\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6403677982050943967.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\SysWOW64\Empirum;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\cvsnt\;C:\Program Files (x86)\Subversion\bin;C:\Program Files (x86)\Citrix\ICAService\;C:\Program Files (x86)\Citrix\System32\;C:\Users\lorinczi\tools\gradle-2.0\bin;C:\Tools\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,16 +61,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testMul" classname="edu.msg.calculator.test.CalcultaorTest" time="0.001"/>
-  <testcase name="testDiv" classname="edu.msg.calculator.test.CalcultaorTest" time="0"/>
+  <testcase name="testDiv" classname="edu.msg.calculator.test.CalcultaorTest" time="0.013"/>
   <testcase name="testSub" classname="edu.msg.calculator.test.CalcultaorTest" time="0"/>
+  <testcase name="testMul" classname="edu.msg.calculator.test.CalcultaorTest" time="0"/>
   <testcase name="testAddNegativ" classname="edu.msg.calculator.test.CalcultaorTest" time="0"/>
   <testcase name="testAdd" classname="edu.msg.calculator.test.CalcultaorTest" time="0"/>
   <testcase name="testDiv2" classname="edu.msg.calculator.test.CalcultaorTest" time="0"/>
-  <testcase name="testMod" classname="edu.msg.calculator.test.CalcultaorTest" time="0.001"/>
-  <testcase name="testMul" classname="edu.msg.calculator.test.CalculatorTest2" time="0"/>
-  <testcase name="testDiv" classname="edu.msg.calculator.test.CalculatorTest2" time="0"/>
+  <testcase name="testMod" classname="edu.msg.calculator.test.CalcultaorTest" time="0"/>
+  <testcase name="testDiv" classname="edu.msg.calculator.test.CalculatorTest2" time="0.011"/>
   <testcase name="testSub" classname="edu.msg.calculator.test.CalculatorTest2" time="0"/>
+  <testcase name="testMul" classname="edu.msg.calculator.test.CalculatorTest2" time="0"/>
   <testcase name="testAddNegativ" classname="edu.msg.calculator.test.CalculatorTest2" time="0"/>
   <testcase name="testAdd" classname="edu.msg.calculator.test.CalculatorTest2" time="0"/>
   <testcase name="testMod" classname="edu.msg.calculator.test.CalculatorTest2" time="0"/>

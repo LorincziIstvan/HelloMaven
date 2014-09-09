@@ -5,36 +5,65 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import edu.msg.calculator.Calculator;
+import edu.msg.fixtures.CreateCalculations;
 
 public class CalculatorTest2 {
 
+	private CreateCalculations calc;
+	
 	@Test
 	public void testAdd() {
-		assertEquals(Calculator.add(1, 2), 3);
+		calc=new CreateCalculations();
+		calc.setOperand1(1);
+		calc.setOperand2(2);
+		calc.setOperation("Add");
+		assertEquals(calc.result(), 3,0.00001);
 	}
 
 	@Test
 	public void testAddNegativ() {
-		assertEquals(Calculator.add(1, -2), -1);
+		
+		calc=new CreateCalculations();
+		calc.setOperand1(1);
+		calc.setOperand2(-2);
+		calc.setOperation("Add");
+		assertEquals(calc.result(), -1,0.00001);
 	}
 
 	@Test
 	public void testSub() {
-		assertEquals(Calculator.sub(3, 2), 1);
+		calc=new CreateCalculations();
+		calc.setOperand1(3);
+		calc.setOperand2(2);
+		calc.setOperation("Sub");
+		assertEquals(calc.result(), 1,0.00001);
 	}
 
 	@Test
 	public void testMul() {
-		assertEquals(Calculator.mul(2, 2), 4);
+		calc=new CreateCalculations();
+		calc.setOperand1(2);
+		calc.setOperand2(2);
+		calc.setOperation("Mul");
+		assertEquals(calc.result(), 4,0.00001);
 	}
 
 	@Test
 	public void testDiv() {
-		assertEquals(Calculator.div(1, 2), 0.5, 0.00001);
+		calc=new CreateCalculations();
+		calc.setOperand1(1);
+		calc.setOperand2(2);
+		calc.setOperation("Div");
+		assertEquals(calc.result(), 0.5,0.00001);
 	}
 
 	@Test
 	public void testMod() {
+		calc=new CreateCalculations();
+		calc.setOperand1(1);
+		calc.setOperand2(2);
+		calc.setOperation("Mod");
+		assertEquals(calc.result(), 1,0.00001);
 		assertEquals(Calculator.mod(1, 2), 1);
 	}
 
