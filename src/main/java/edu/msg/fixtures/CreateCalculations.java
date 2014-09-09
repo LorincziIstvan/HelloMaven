@@ -10,7 +10,7 @@ public class CreateCalculations {
 
 	public CreateCalculations() {
 		this.operand1 = 0;
-		this.operand1 = 1;
+		this.operand2 = 1;
 		this.operation = "Add";
 	}
 
